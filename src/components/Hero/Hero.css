@@ -42,3 +42,15 @@
   font-size: 16px;
   padding: 15px 20px;
 }
+
+
+@media (min-width: 1281px) {
+
+  .hero-contain h1{
+  line-height: 91px;
+  }
+
+  .hero-contain .dot-contain{
+  margin-bottom: -9px;
+  }
+}
