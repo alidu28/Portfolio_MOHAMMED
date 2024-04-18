@@ -1,0 +1,44 @@
+.hero-contain {
+  height: 34vw;
+  margin: 70px auto;
+  position: relative;
+  left: 2%;
+}
+
+.hero-contain h3 {
+  font-size: max(2.5vw, 20px);
+  font-weight: 700;
+  color: #7b7e8f;
+  max-width: fit-content;
+}
+
+.hero-contain h1{
+  max-width: 600px;
+  max-height: 255px;
+  font-size: max(6.6vw, 21px);
+  line-height: 71px;
+  margin: 8px 0 35px 0;
+  color: #dbdde4;
+  display: flex;
+  font-family: "Russo One", sans-serif;
+}
+
+.hero-contain .dot-contain{
+  align-self: end;
+  position: absolute;
+  left: 52.4%;
+  margin-bottom: 9px;
+}
+
+.hero-contain .dot {
+  padding: 7px;
+  border: 1px solid #50a3dc;
+  background-color: #50a3dc;
+  position: relative;
+}
+
+.prev-btn {
+  width: 200px;
+  font-size: 16px;
+  padding: 15px 20px;
+}

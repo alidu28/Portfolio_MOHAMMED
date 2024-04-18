@@ -1,0 +1,131 @@
+.portfolio {
+  position: relative;
+  right: 3%;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-content h1 {
+  font-size: max(2.1vw, 20px);
+  font-weight: 700;
+  font-family: "Russo One", sans-serif;
+  color: #dbdde4;
+  text-align: center;
+}
+
+.portfolio-content ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.portfolio-content ul li {
+  padding: 0 45px;
+  font-size: max(1.4vw, 14px);
+  font-family: "Russo One", sans-serif;
+  color: #7b7e8f;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.portfolio-content ul li:hover {
+  color: #50a3dc;
+}
+
+.projects-contain {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.even {
+  position: relative;
+  left: 19%;
+}
+
+.pro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-right: 60px;
+  min-width: 360px;
+}
+
+.pro-content h2 {
+  font-size: max(1.5vw, 20px);
+  font-weight: 700;
+  font-family: "Russo One", sans-serif;
+  color: #50a3dc;
+  margin: 0;
+}
+
+.pro-content h3 {
+  font-size: max(1.5vw, 20px);
+  font-weight: 700;
+  font-family: "Russo One", sans-serif;
+  color: #dbdde4;
+  margin: 10px 0;
+}
+
+.pro-content p {
+  font-size: max(1.3vw, 16px);
+  font-weight: 400;
+  color: #7b7e8f;
+  margin: 5px 0 15px 0;
+  max-width: 480px;
+}
+
+.pro-content h4 {
+  font-size: max(1vw, 14px);
+  font-weight: 400;
+  color: #dbdde4;
+  cursor: pointer;
+}
+
+.pro-img {
+  border: 9px solid #50a3dc;
+  border-radius: 7px;
+  position: relative;
+  z-index: 0;
+  min-width: 370px;
+  min-height: 300px;
+}
+
+.pro-img img {
+  height: 300px;
+  width: 370px;
+  border-radius: 7px;
+  z-index: 1;
+  position: absolute;
+  top: -12%;
+  left: 9%;
+}
+
+.view {
+  margin: 0 auto;
+  width: 145px;
+  padding: 15px 20px;
+  font-size: 14.5px;
+}

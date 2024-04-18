@@ -1,0 +1,46 @@
+.experience {
+  position: relative;
+  right: 2%;
+}
+
+.experience-contain {
+  margin-top: 80px;
+}
+
+.experience-contain h1 {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: "Russo One", sans-serif;
+  color: #dbdde4;
+  text-align: center;
+}
+
+.experience-imgs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+  row-gap: 50px;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.experience-imgs div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience-imgs p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #dbdde4;
+  margin-top: 10px;
+}
+
+.experience-imgs img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  background: none;
+}
