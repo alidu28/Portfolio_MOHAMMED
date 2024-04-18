@@ -1,6 +1,6 @@
 .about {
   position: relative;
-  left: 12%;
+  left: 7%;
   margin: 130px 0 140px 0;
 }
 
@@ -15,13 +15,13 @@
   border-radius: 7px;
   position: relative;
   z-index: 0;
-  min-width: 480px;
-  min-height: 510px;
+  min-width: 380px;
+  min-height: 410px;
 }
 
 #about-img {
-  height: 510px;
-  width: 480px;
+  height: 410px;
+  width: 380px;
   border-radius: 7px;
   z-index: 1;
   position: absolute;
@@ -63,7 +63,21 @@
 
 @media (min-width: 1281px) {
 
+  .about{
+  left: 12%;
+  }
+
+  .img-box{
+    min-width: 480px;
+    min-height: 510px;
+  }
+
+  #about-img{
+    height: 510px;
+    width: 480px;
+  }
+
   .about-info{
-    min-width: 600px;
+    max-width: 600px;
   }
 }
