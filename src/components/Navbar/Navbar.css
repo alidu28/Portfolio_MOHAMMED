@@ -14,13 +14,13 @@ nav {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.nav-list ul {
+.nav-list .navlist-item {
   display: flex;
   list-style: none;
   align-items: center;
 }
 
-.nav-list li {
+.nav-list .li {
   padding: 0 20px;
   font-size: 14px;
   font-family: "Russo One", sans-serif;
@@ -28,9 +28,10 @@ nav {
   transition: 0.5s ease-in-out;
 }
 
-.nav-list li:hover {
+.nav-list .li:hover {
   color: #50a3dc;
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .btn {
@@ -50,4 +51,53 @@ nav {
   color: #dbdde4;
   border: 1px solid #4a35bc;
   transition: 0.5s ease-in-out;
+}
+
+.menu-bar{
+  background: transparent;
+  object-fit: contain;
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .contact-btn{
+    display: none;
+  }
+
+  .menu-bar{
+    display: block;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    background: linear-gradient(140deg, #4a35bc, #50a3dc);
+    width: 100%;
+    min-height: 100%;
+    padding: 1rem;
+    z-index: 100;
+  }
+
+  .nav-list.open {
+    display: flex;
+  }
+
+  .navlist-item {
+    flex-direction: column;
+    align-items: flex-start;
+    background: transparent;
+  }
+
+  .li {
+    margin: 0.5rem 0;
+    background: transparent;
+  }
+  
 }

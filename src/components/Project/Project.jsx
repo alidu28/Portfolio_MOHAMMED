@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { assets } from "../../assets/asset";
 import "./Project.css";
 
@@ -8,10 +9,12 @@ function Project() {
         <h1>PORTFOLIO</h1>
 
         <ul>
+          <Link className="project-list">
           <li>Mobile App</li>
           <li>Website</li>
           <li>Desktop</li>
           <li>Other Project</li>
+          </Link>
         </ul>
 
         <div className="projects-contain">

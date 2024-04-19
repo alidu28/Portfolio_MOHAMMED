@@ -81,3 +81,24 @@
     max-width: 600px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+  .about-content{
+    flex-wrap: wrap;
+  }
+
+  .img-box{
+    min-width: 450px;
+    min-height: 430px;
+  }
+
+  #about-img{
+    height: 430px;
+    width: 450px;
+  }
+
+  .about-info{
+    text-align: center;
+  }
+}

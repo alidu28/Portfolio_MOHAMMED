@@ -94,3 +94,38 @@ p {
   max-width: 310px;
   margin: 10px 0;
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+  .service-contain{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .video,
+.mobile,
+.desktop,
+.program{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .video-img,
+  .mobile-img,
+  .desktop-img,
+  .program-img{
+    width: fit-content;
+}
+
+.video p,
+.mobile p,
+.desktop p,
+.program p{
+  text-align: center;
+}
+
+p{
+  max-width: 400px;
+}
+}

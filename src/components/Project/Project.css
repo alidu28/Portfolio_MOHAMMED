@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.portfolio-content ul {
+.portfolio-content .project-list {
   display: flex;
   list-style: none;
   justify-content: center;
@@ -26,7 +26,7 @@
   padding: 20px 0;
 }
 
-.portfolio-content ul li {
+.portfolio-content .project-list li {
   padding: 0 45px;
   font-size: max(1.4vw, 14px);
   font-family: "Russo One", sans-serif;
@@ -35,8 +35,10 @@
   transition: 0.5s ease-in-out;
 }
 
-.portfolio-content ul li:hover {
+.portfolio-content .project-list li:hover {
   color: #50a3dc;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .projects-contain {
@@ -128,4 +130,35 @@
   width: 145px;
   padding: 15px 20px;
   font-size: 14.5px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+
+  .project{
+    flex-wrap: wrap-reverse;
+  }
+
+  .pro-content{
+    align-items: center;
+    margin: 40px 0;
+  }
+
+  .even{
+    left: 0;
+  }
+
+  .pro-content p{
+    text-align: center;
+  }
+
+  .pro-img{
+    min-width: 470px;
+    min-height: 400px;
+  }
+
+  .pro-img img{
+    width: 470px;
+    height: 400px;
+  }
 }

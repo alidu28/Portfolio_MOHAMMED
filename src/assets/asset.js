@@ -21,6 +21,7 @@ import video from "./youtube.png"
 import mobile from "./smartphone-call.png"
 import desktop from "./computer.png"
 import program from "./coding.png"
+import menubar from "./menu_button.png"
 
 
 export const assets = {
@@ -45,5 +46,6 @@ export const assets = {
     mobile,
     desktop,
     program,
+    menubar,
 }
 
