@@ -63,10 +63,6 @@
 
 @media (min-width: 1281px) {
 
-  .about{
-  left: 12%;
-  }
-
   .img-box{
     min-width: 480px;
     min-height: 510px;
@@ -84,8 +80,14 @@
 
 @media (min-width: 768px) and (max-width: 1024px){
 
+  .about{
+    left: 0;
+  }
+
   .about-content{
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .img-box{
@@ -99,6 +101,8 @@
   }
 
   .about-info{
+    margin-top: 50px;
     text-align: center;
+    left: 0;
   }
 }
