@@ -61,7 +61,7 @@
   .experience-imgs{
     gap: 20px;
     row-gap: 50px;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
 
   .experience-imgs img{

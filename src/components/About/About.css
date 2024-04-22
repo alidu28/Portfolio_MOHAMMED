@@ -119,14 +119,32 @@
     justify-content: center;
   }
 
+  .about-content h2{
+    font-size: max(1.1vw, 18px);
+  }
+
+  .about-content p{
+    font-size: max(1.1vw, 14px);
+  }
+
+  .hire{
+    font-size: 10px;
+    width: 100px;
+  }
+
+  .resume{
+    font-size: 10px;
+    width: 100px;
+  }
+
   .img-box{
-    min-width: 310px;
-    min-height: 310px;
+    min-width: 300px;
+    min-height: 300px;
   }
 
   #about-img{
-    height: 310px;
-    width: 310px;
+    height: 300px;
+    width: 300px;
   }
 
   .about-info{

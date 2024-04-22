@@ -1,6 +1,6 @@
 .hero-contain {
   height: 34vw;
-  margin: 70px auto;
+  margin: 70px 0;
   position: relative;
   left: 2%;
 }
@@ -58,4 +58,28 @@
 @media (min-width: 320px) and (max-width: 480px){
 
 
+  .hero-contain{
+    left: 6%;
+    margin: 40px 0;
+    width: 415px;
+  }
+
+  .hero-contain h1{
+    max-width: 200px;
+    max-height: 200px;
+    line-height: 28px;
+    font-size: 35px;
+  }
+
+  .hero-contain .dot{
+    padding: 3px;
+    position: absolute;
+    top: 0.6%;
+  }
+
+  .prev-btn {
+    width: 170px;
+    font-size: 12px;
+    padding: 13px 16px;
+  }
 }
