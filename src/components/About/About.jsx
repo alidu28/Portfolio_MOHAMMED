@@ -11,7 +11,7 @@ function About() {
 
         <div className="about-info">
           <h2>ABOUT ME</h2>
-
+          
           <p>
             Passionate software developer with expertise in web development,
             proficient in both frontend and backend technologies. 💼 Skills &

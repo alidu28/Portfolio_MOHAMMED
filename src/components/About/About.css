@@ -106,3 +106,32 @@
     left: 0;
   }
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+
+  .about{
+    left: 0;
+  }
+
+  .about-content{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-box{
+    min-width: 310px;
+    min-height: 310px;
+  }
+
+  #about-img{
+    height: 310px;
+    width: 310px;
+  }
+
+  .about-info{
+    margin-top: 50px;
+    text-align: center;
+    left: 0;
+  }
+}

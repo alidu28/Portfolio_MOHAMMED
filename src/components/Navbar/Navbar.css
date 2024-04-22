@@ -101,3 +101,45 @@ nav {
   }
   
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+
+  .contact-btn{
+    display: none;
+  }
+
+  .menu-bar{
+    display: block;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    background: linear-gradient(140deg, #4a35bc, #50a3dc);
+    width: 100%;
+    min-height: 100%;
+    padding: 1rem;
+    z-index: 100;
+  }
+
+  .nav-list.open {
+    display: flex;
+  }
+
+  .navlist-item {
+    flex-direction: column;
+    align-items: flex-start;
+    background: transparent;
+  }
+
+  .li {
+    margin: 0.5rem 0;
+    background: transparent;
+  }
+}

@@ -162,3 +162,33 @@
     height: 400px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+
+  .project{
+    flex-wrap: wrap-reverse;
+  }
+
+  .pro-content{
+    align-items: center;
+    margin: 40px 0;
+  }
+
+  .even{
+    left: 0;
+  }
+
+  .pro-content p{
+    text-align: center;
+  }
+
+  .pro-img{
+    min-width: 370px;
+    min-height: 300px;
+  }
+
+  .pro-img img{
+    width: 370px;
+    height: 300px;
+  }
+}

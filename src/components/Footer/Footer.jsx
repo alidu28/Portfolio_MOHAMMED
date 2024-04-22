@@ -46,18 +46,19 @@ function Footer() {
 
             <div className="contact-info">
               <span className="footer-icons">
-                <FontAwesomeIcon icon={faEnvelope} id="icon" />
-              </span>
-              <p>mugabejunior5@gmail.com</p>
-            </div>
-
-            <div className="contact-info">
-              <span className="footer-icons">
                 <FontAwesomeIcon icon={faLocationDot} id="icon" />
               </span>
               <p>Loc. Da abra street</p>
             </div>
-          </div>
+          
+
+            <div className="contact-info">
+              <span className="footer-icons">
+                <FontAwesomeIcon icon={faEnvelope} id="icon" />
+              </span>
+              <p>mugabejunior5@gmail.com</p>
+            </div>
+            </div>  
 
           <div className="footer-right">
             <input type="text" name="name" id="name" placeholder="Name" />

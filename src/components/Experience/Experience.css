@@ -55,3 +55,17 @@
   }
 
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+
+  .experience-imgs{
+    gap: 20px;
+    row-gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .experience-imgs img{
+    width: 80px;
+    height: 80px;
+  }
+}
