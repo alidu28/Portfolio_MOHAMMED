@@ -61,7 +61,7 @@
   .hero-contain{
     left: 6%;
     margin: 40px 0;
-    width: 415px;
+    width: fit-content;
   }
 
   .hero-contain h1{
@@ -71,10 +71,15 @@
     font-size: 35px;
   }
 
+  .hero-contain .dot-contain{
+    position: relative;
+    left: 3%;
+  }
+
   .hero-contain .dot{
     padding: 3px;
     position: absolute;
-    top: 0.6%;
+    top: 0.5%;
   }
 
   .prev-btn {
