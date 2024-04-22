@@ -22,10 +22,6 @@ a {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-
-  *{
-    /* overflow-x: hidden; */
-  }
   
   .app{
   width: 90%;

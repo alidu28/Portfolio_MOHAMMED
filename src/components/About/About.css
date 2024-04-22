@@ -138,13 +138,13 @@
   }
 
   .img-box{
-    min-width: 300px;
-    min-height: 300px;
+    min-width: 280px;
+    min-height: 280px;
   }
 
   #about-img{
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
   }
 
   .about-info{

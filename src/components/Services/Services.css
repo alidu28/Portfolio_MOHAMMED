@@ -48,7 +48,7 @@
 .video p,
 .mobile p,
 .desktop p,
-.program p{
+.program p {
   font-size: 16px;
   color: #dbdde4;
 }
@@ -95,71 +95,110 @@ p {
   margin: 10px 0;
 }
 
-
-@media (min-width: 768px) and (max-width: 1024px){
-
-  .service-contain{
+@media (min-width: 768px) and (max-width: 1024px) {
+  .service-contain {
     grid-template-columns: repeat(1, 1fr);
   }
 
   .video,
-.mobile,
-.desktop,
-.program{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .mobile,
+  .desktop,
+  .program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .video-img,
   .mobile-img,
   .desktop-img,
-  .program-img{
+  .program-img {
     width: fit-content;
+  }
+
+  .video p,
+  .mobile p,
+  .desktop p,
+  .program p {
+    text-align: center;
+  }
+
+  p {
+    max-width: 400px;
+  }
 }
 
-.video p,
-.mobile p,
-.desktop p,
-.program p{
-  text-align: center;
-}
+@media (min-width: 320px) and (max-width: 480px) {
 
-p{
-  max-width: 400px;
-}
-}
 
-@media (min-width: 320px) and (max-width: 480px){
+  .service {
+    left: 0;
+  }
 
-  .service-contain{
+  .service-content {
+    margin-top: 100px;
+  }
+
+  .service-content h1 {
+    font-size: max(1.1vw, 19px);
+  }
+
+  .service-contain {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 50px;
   }
 
   .video,
-.mobile,
-.desktop,
-.program{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .mobile,
+  .desktop,
+  .program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   .video-img,
   .mobile-img,
   .desktop-img,
-  .program-img{
+  .program-img {
+    /* width: fit-content; */
+    margin: 0 auto;
+  }
+
+  .video p,
+  .mobile p,
+  .desktop p,
+  .program p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  img {
+    width: 30px;
+  }
+
+  span {
+    padding: 8px;
+  }
+
+  .video-img h2,
+  .mobile-img h2,
+  .desktop-img h2,
+  .program-img h2 {
+    font-size: 15.5px;
+    width: 240px;
+    text-align: start;
+    margin-left: 10px;
+  }
+
+  .editing{
     width: fit-content;
-}
+    align-items: center;
+    justify-content: center;
+  }
 
-.video p,
-.mobile p,
-.desktop p,
-.program p{
-  text-align: center;
-}
-
-p{
-  max-width: 400px;
-}
+  .editing h2{
+    width: fit-content;
+  }
 }
